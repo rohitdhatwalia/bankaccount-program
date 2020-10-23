@@ -22,7 +22,7 @@ class BankAccount:
         else:
             print("you can only withdraw maximum amount of rupess 10000/- per transaction ")
             
-n= int(input("enter a number : "))
+n= int(input("enter a number ,you want to perform operation: "))
 for i in range(n):
     obj1 = BankAccount()
     bal2 = obj1.deposit(balance = int(input("enter your balance for deposite : ")))
